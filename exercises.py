@@ -5,7 +5,8 @@
 #1 
 #Declare two variables box_1 and box_2 and assign any number value of your choosing. These two variables will be used to invoke functions #2 - #5.
 
-
+box_1=50
+box_2=100
 #2
 #Function - add
 #Create a function named `add` which will take two parameters: `num_1` and `num_2`.
@@ -13,6 +14,14 @@
 #This function will add two numbers (the parameters, `num_1` and `num_2`) and return the sum of these two numbers. Invoke the function and assign it to a variable named `sum`.
 
 #Print the sum variable to see your result.
+
+
+def add(num_1, num_2):
+    return num_1 + num_2
+add(box_1, box_2)
+
+sum = add(box_1, box_2)
+print(sum)
 
 
 #3
@@ -23,8 +32,13 @@
 
 #Print the difference variable to see your result.
 
+def subtract(num_1, num_2):
+    return num_1 - num_2
+subtract(box_1, box_2)
 
-#4
+diff = subtract(box_1, box_2)
+print(diff)
+
 # Function - multiply
 #Create a function named `multiply` which will take two parameters: `num_1` and `num_2`.
 
@@ -32,6 +46,12 @@
 
 #Print the product variable to see your result.
 
+def multiply(num_1, num_2):
+    return num_1 * num_2
+multiply(box_1, box_2)
+
+product=multiply(box_1, box_2)
+print(product)
 
 #5
 #Function - divide
