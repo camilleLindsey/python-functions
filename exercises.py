@@ -18,7 +18,7 @@ box_2 = 10
 
 def add(num_1, num_2):
     return num_1 + num_2
-add(box_1, box_2)
+#add(box_1, box_2)
 
 sum = add(box_1, box_2)
 print(sum)
@@ -57,7 +57,12 @@ difference=multiply(box_2, box_2)
 #This function will divide two numbers and return the quotient of these two numbers. Invoke the function and assign it to a variable named `quotient`.
 
 #Print the quotient variable to see your result.
+def divide(num_1, num_2):
+    return num_1/num_2
+divide(box_1, box_2)
 
+quotient = divide(box_1, box_2)
+print(quotient)
 
 
 # #6
@@ -72,6 +77,7 @@ check_sum(sum)
 
 da_diva = check_sum(sum)
 print(da_diva)
+
 #7
 #Function - check_difference
 #Create a function named `check_difference` which will take a parameter `x`.
@@ -90,24 +96,24 @@ print(loving_it)
 #Function - check_product
 #Create a function named `check_product` which does not require any parameters.
 
-#This function will multiply the values stored in the sum and product variables. Invoke this function and print your result.
+# #This function will multiply the values stored in the sum and product variables. Invoke this function and print your result.
+
 def check_product():
     return sum * product
 check_product()
 
 print(check_product())
 
-
 # #9
 #Function - check_quotient
 #Create a function named `check_quotient` which does not require any parameters.
 
 #This function will multiply the values stored in the product and quotient variables. Invoke this function and print your result.
-def check_quotient():
-    return product * quotient
-check_quotient()
+# def check_quotient():
+#     return product * quotient
+# check_quotient()
 
-print(check_quotient())
+# print(check_quotient())
 
 #10
 #Function - create_full_name
