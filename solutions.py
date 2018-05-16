@@ -81,6 +81,8 @@ check_sum(sum)
 da_diva = check_sum(sum)
 print(da_diva)
 
+
+
 #7
 #Function - check_difference
 #Create a function named `check_difference` which will take a parameter `x`.
