@@ -5,8 +5,8 @@
 #1 
 #Declare two variables box_1 and box_2 and assign any number value of your choosing. These two variables will be used to invoke functions #2 - #5.
 
-box_1 = 6
-box_2 = 8
+box_1 =20
+box_2 = 10
 
 #2
 #Function - add
@@ -30,15 +30,12 @@ print(sum)
 #This function will subtract two numbers and return the difference of these two numbers. Invoke the function and assign it to a variable named `difference`.
 
 #Print the difference variable to see your result.
-
 def subtract(num_1, num_2):
-    return num_1 - num_2
+    return num_1 - num_1
 subtract(box_1, box_2)
 
-difference = subtract(box_1, box_2)
-print(difference)
+difference=subtract(box_1, box_2)
 
-#4
 # Function - multiply
 #Create a function named `multiply` which will take two parameters: `num_1` and `num_2`.
 
@@ -46,28 +43,24 @@ print(difference)
 
 #Print the product variable to see your result.
 
+
 def multiply(num_1, num_2):
     return num_1 * num_2
 multiply(box_1, box_2)
 
-product = multiply(box_1, box_2)
-print(product)
+difference=multiply(box_2, box_2)
 
-#5
+
+# #5
 #Function - divide
 #Create a function named `divide` which will take two parameters: `num_1` and `num_2`.
 #This function will divide two numbers and return the quotient of these two numbers. Invoke the function and assign it to a variable named `quotient`.
 
 #Print the quotient variable to see your result.
 
-def divide(num_1, num_2):
-    return num_1/num_2
-divide(box_1, box_2)
 
-quotient = divide(box_1, box_2)
-print(quotient)
 
-#6
+# #6
 #Function - check_sum
 #Create a function named `check_sum` which will take a parameter: `x`.
 #This function will return the string "Mariah Carey has been married `x` amount of times." Where `x` is the value stored in the sum variable from exercise 2. Invoke this function and assign it to a variable named `da_diva`.
@@ -98,13 +91,9 @@ print(loving_it)
 #Create a function named `check_product` which does not require any parameters.
 
 #This function will multiply the values stored in the sum and product variables. Invoke this function and print your result.
-def check_product():
-    return sum * product
-check_product()
 
-print(check_product())
 
-#9
+# #9
 #Function - check_quotient
 #Create a function named `check_quotient` which does not require any parameters.
 
@@ -125,11 +114,11 @@ print(check_quotient())
 
 
 
-def create_full_name(first_name, last_name):
+def full_name(first_name, last_name):
     return first_name + last_name 
-create_full_name('camille', 'lindsey')
+#full_name('camille', 'lindsey')
 
-my_full_name = create_full_name('camille', 'lindsey') 
+my_full_name = full_name('camille', 'lindsey') 
 print(my_full_name)
 
 
